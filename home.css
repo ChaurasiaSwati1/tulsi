@@ -1,0 +1,199 @@
+*, ::after, ::before {
+box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.font-30{
+    font-size: 30px !important;
+}
+.font-24{
+    font-size: 24px !important;
+}
+.font-18{
+    font-size: 18px !important;
+}
+.font-16{
+    font-size: 16px !important;
+}
+.font-14, p{
+    font-size: 14px !important;
+}
+.font-12{
+    font-size: 12px !important;
+}
+.banner{
+    box-sizing: border-box;
+    height: calc(100vh - 100px);
+    /* height: 100%; */
+    object-fit: cover;
+}
+.banner i {
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    font-size: 30px;
+    color: #fff;
+}
+.border-r{
+    border-right: 1px solid #dee2e6!important;
+}
+.ml-auto{
+    margin-left: auto !important;
+}
+@media screen and (min-width: 768px) {
+    .w-md-50{
+        width: 50% !important;
+    }
+    .w-120{
+        width: 120px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .w-md-25{
+        width: 25% !important;
+    }
+    .w-md-auto{
+        width: auto !important;
+    }
+}
+@media screen and (max-width: 575px) {
+    .w-sm-50{
+        width: 50% !important;
+    }
+    .w-sm-auto{
+        width: auto !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .banner i {
+    left: 15px;
+     top: 20px;
+     font-size: 25px;
+    }
+    
+    .banner{
+        box-sizing: border-box;
+        height: 250px;
+    }
+ }
+.tulsi h3{
+    color: #3A443F;
+    font-size: 28px;
+
+}
+.tulsi span i{
+    color: #74975D;
+}
+.table-bordered{
+    border: 0.5px solid #2D2C2A;
+}
+.qty{
+    width: 120px;
+    height: 40px;
+    border: 1px solid #dee2e6!important;
+}
+.qty input,
+.qty .qty_btn{
+    width: 40px;
+    border: 0;
+    font-weight: 600;
+}
+.btn-primary{
+    background-color: #74975D;
+    color: #fff;
+    border: #74975D;
+    width: 100%;
+    border-radius: 0;
+    padding: 10px;
+    font-weight: 600;
+}
+.btn-primary:hover{
+    background-color: #9abd81;
+    border: #9abd81;
+}
+.btn-outline-primary{
+    background-color: #FFF;
+    color: #74975D;
+    border: 1px solid #74975D;
+    width: 100%;
+    border-radius: 0;
+    padding: 10px;
+    font-weight: 600;
+}
+.btn-outline-primary:hover{
+    background-color: #74975D;
+    border: #74975D;
+}
+.text-primary{
+    color: #74975D !important;
+}
+.fw-semibold{
+    font-weight: 500;
+}
+.object-cover{
+    object-fit: cover !important;
+}
+.ml-1{
+    margin-left: 10px;
+}
+.mr-3{
+    margin-right: 1.5rem !important;
+}
+
+table tr td{
+    border-spacing: 3px;
+  }
+  .data .bor-bott{
+    height: 0px;
+    top: 12px;
+    position: relative;
+    border-bottom: 1px dashed #2D2C2A;
+  }
+  .justify-around{
+    justify-content: space-around;
+}
+  .justify-center{
+    justify-content: center;
+}
+.borderR-0{
+    border-right: 0 !important;
+}
+.borderL-0{
+    border-left: 0 !important;
+}
+table tr td,
+table tr th{
+    padding: 15px 5px;
+}
+  .pr-2{
+    padding-right: 10px !important;
+  }
+  .pl-2{
+    padding-left: 10px !important;
+  }
+  .data .p2{
+    right: 0;
+  }
+  .data .bor-bott::before{
+    content: '';
+    flex: 1;
+  }
+  .honey{
+    max-height: 380px;
+    height: 100%;
+  }
+  .rounded-15{
+    border-radius: 15px;
+  }
+  .rounded-20{
+    border-radius: 20px;
+  }
+@media screen and (max-width: 575px) {
+    .Ingredients .card img{
+        height: 60px;
+        width: 60px;
+    }
+}
